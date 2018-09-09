@@ -1,5 +1,4 @@
 import java.util.Scanner;
-
 public class MyMath {
 
 	public static void main(String[] args) {
@@ -21,8 +20,6 @@ public class MyMath {
 			result = y * y * x;
 		}
 		System.out.println("The result is " + result + ".");
-
 		s.close();
 	}
-
 }

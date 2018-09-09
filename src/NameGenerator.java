@@ -69,10 +69,7 @@ public class NameGenerator {
 			System.out.println("Choice not in range, please re-run the program.");
 			return;
 		}
-		
 		System.out.println("Your character name is " + name +".");
 		s.close();
-
 	}
-
 }
