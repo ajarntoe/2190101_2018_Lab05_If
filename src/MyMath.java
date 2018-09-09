@@ -22,6 +22,7 @@ public class MyMath {
 		}
 		System.out.println("The result is " + result + ".");
 
+		s.close();
 	}
 
 }

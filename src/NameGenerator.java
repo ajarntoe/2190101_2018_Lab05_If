@@ -71,7 +71,7 @@ public class NameGenerator {
 		}
 		
 		System.out.println("Your character name is " + name +".");
-		
+		s.close();
 
 	}
 

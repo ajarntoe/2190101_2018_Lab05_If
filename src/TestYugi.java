@@ -11,14 +11,14 @@ public class TestYugi {
 		YugiOhCard f = new YugiOhCard("Blue-eyes", 8, 3000, 3000);
 		YugiOhCard g = new YugiOhCard("Blue-eyes", 8, 3000, 3000);
 		
-		System.out.println("a and b are equal?: " + (a==b));
-		System.out.println("a and c are equal?: " + (a==c));
-		System.out.println("a and d are equal?: " + (a==d));
-		System.out.println("a and e are equal?: " + (a==e));
-		System.out.println("a and f are equal?: " + (a==f));
-		System.out.println("f and g are equal?: " + (f==g));
+		System.out.println("a and b are equal?: " + (a.equals(b)));
+		System.out.println("a and c are equal?: " + (a.equals(c)));
+		System.out.println("a and d are equal?: " + (a.equals(d)));
+		System.out.println("a and e are equal?: " + (a.equals(e)));
+		System.out.println("a and f are equal?: " + (a.equals(f)));
+		System.out.println("f and g are equal?: " + (f.equals(g)));
 		a=b;
-		System.out.println("a and b are equal after assignment?: " + (a==b));
+		System.out.println("a and b are equal after assignment?: " + (a.equals(b)));
 		
 		
 	}

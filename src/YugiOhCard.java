@@ -15,8 +15,9 @@ public class YugiOhCard {
 
 	public boolean equals(Object o) {
 		YugiOhCard o2 = (YugiOhCard) o;
-		return true; //remove this line
+		//return true; //remove this line
 		// fill in the rest of the code
+		return (name.equals(o2.name) && level == o2.level && attack == o2.attack && defence == o2.defence) ;
 
 	}
 
